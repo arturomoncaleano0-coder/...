@@ -60,7 +60,7 @@ class MindARController {
             // marcador y se va "arrastrando" hacia él. Por eso se usa un valor más alto
             // y además se descartan más frames de calentamiento y se hace "snap" (ver
             // installSnapGuard).
-            filterMinCF: 0.0005,
+            filterMinCF: 0.0002,
             filterBeta: 1000,
             warmupTolerance: 8,
             missTolerance: 5,
